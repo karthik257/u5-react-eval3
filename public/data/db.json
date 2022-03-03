@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+         "id": 1, 
+         "username": "user1", 
+         "password": "123" 
+        },
+         {
+         "id": 2, 
+         "username": "user2", 
+         "password": "456" 
+        },
+        {
+         "id": 3, 
+         "username": "user3", 
+         "password": "789" 
+        }
+  ],
+  "posts": [
+    { 
+        "id": 10,
+         "post_title": "post title 10",
+          "post_body": "post body 10"
+         },
+         { 
+        "id": 11,
+         "post_title": "post title 11",
+          "post_body": "post body 11"
+         },{ 
+        "id": 12,
+         "post_title": "post title 12",
+          "post_body": "post body 12"
+         }
+  ],
+  "comments": [
+    { 
+        "id": 20,
+         "author_id": "Auth 123",
+          "author_name": "Auth 1","post_id":"post123","comment_details":"comment detail1" 
+        },
+         { 
+        "id": 21,
+         "author_id": "Auth 456",
+          "author_name": "Auth 2","post_id":"post456","comment_details":"comment detail2" 
+        },
+         { 
+        "id": 22,
+         "author_id": "Auth 789",
+          "author_name": "Auth 3","post_id":"post789","comment_details":"comment detail3" 
+        }
+  ]
+}
+
